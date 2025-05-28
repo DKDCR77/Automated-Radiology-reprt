@@ -42,21 +42,30 @@ Preprocessed with: Image resizing to 224x224 Normalization to [0, 1] Data Augmen
 • Training Details: Optimizer: Adam Loss: Categorical Crossentropy Epochs: 50 batch Size: 32
 Early Stopping to prevent overfitting o Loss Function: Specify the loss function used for training (e.g., Categorical Crossentropy, especially suitable for multi-class classification with one-hot encoded labels). Explain why this loss function was chosen. o Optimizer: Detail the optimizer used (e.g., Adam, SGD, RMSprop). Specify the learning rate used and the reasons for choosing this initial value. Mention any learning rate scheduling techniques applied (e.g., reducing the learning rate on plateau). o Batch Size: State the batch size used during training and explain the rationale behind this choice (e.g., balancing between training speed and gradient stability). o Number of Epochs: Specify the total number of training epochs. o Early Stopping: Explain if early stopping was implemented to prevent overfitting. Describe the criteria used for early stopping (e.g., monitoring validation loss and stopping if it doesn't improve for a certain number of epochs). o Regularization Techniques: Describe any other regularization techniques used (e.g., L1 or L2 regularization applied to the weights). • Evaluation Metrics: Reiterate the evaluation metrics used (Accuracy, Precision, Recall, F1-score, Confusion Matrix) and explain how each metric provides insight into the model's performance, particularly in the context of medical diagnosis (e.g., the importance of high recall to avoid missing positive cases).
 • Sample X-ray images (Normal & Disease) 
+![435734089-17c9504e-f959-4b44-a2ab-bfe52918976f](https://github.com/user-attachments/assets/6580ca70-efc6-4e33-84b8-8ce2bda91431)
+
 ￼
 • CNN architecture visualization 
+![435734167-17d5a635-113f-4649-83aa-efea08c2159a](https://github.com/user-attachments/assets/91337e12-9883-4dc4-9d12-70f7c084453e)
+
 ￼
 • Training accuracy/loss graphs 
 ￼
- 
+ ![435734299-eda460a1-f7ad-4b8e-adbe-50eadffbd8cc](https://github.com/user-attachments/assets/bd311dd3-424f-4c86-9cfc-3df1971fe983)
+
 ￼
 • Confusion matrix 
+![True Label](https://github.com/user-attachments/assets/f8c54d4f-7c3a-47bb-9a24-59ccf1d67bef)
+
 ￼
 normal image and prediction • Predicted results for test images 
 ￼
- 
+ ![435734540-9e3c8999-7545-4e9a-9878-be29b5b557aa](https://github.com/user-attachments/assets/a88857d5-00c2-4983-a31d-652cd32e6989)
+
 ￼
 pneumonia image and prediction 
 ￼
- 
+ ![Uploading 435734670-c2ca6602-0b00-4dcd-b8ff-9c837a2553a1.png…]()
+
 ￼
 
