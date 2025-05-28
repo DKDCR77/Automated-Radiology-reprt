@@ -8,8 +8,8 @@ img_path = r"C:\Users\Lenovo\OneDrive\Desktop\dlproject\chest_xray\testcase_imag
 
 # Check if image exists
 if not os.path.exists(img_path):
-    print(f"❌ Image file not found at: {img_path}")
-    print("✅ Available files in the directory:")
+    print(f"Image file not found at: {img_path}")
+    print(" Available files in the directory:")
     print(os.listdir(os.path.dirname(img_path)))
     exit()
 
