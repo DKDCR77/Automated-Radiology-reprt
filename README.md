@@ -70,9 +70,7 @@ normal image and prediction • Predicted results for test images 
  ![435734540-9e3c8999-7545-4e9a-9878-be29b5b557aa](https://github.com/user-attachments/assets/a88857d5-00c2-4983-a31d-652cd32e6989)
 
 ￼
-pneumonia image and prediction 
-￼
- ![Uploading 435734670-c2ca6602-0b00-4dcd-b8ff-9c837a2553a1.png…]()
+ 
 
 ￼
 
